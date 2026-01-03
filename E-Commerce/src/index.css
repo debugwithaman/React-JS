@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme{
+  --color-wild-sand:#f6f6f6;
+}
+
+.no-scrollbar{
+  scrollbar-width:none;
+}
