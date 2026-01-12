@@ -1,0 +1,29 @@
+.random-quote-generator{
+    margin: 20px;
+    text-align: center;
+}
+
+.quote-wrapper{
+    background-color: crimson;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.quote-wrapper p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.refresh-btn{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: aqua;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    font-family: cursive;
+  
+}

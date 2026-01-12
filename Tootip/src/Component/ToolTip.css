@@ -1,0 +1,26 @@
+.ToolTipContainer{
+    position: relative;
+    display: inline-block;
+    margin: 75px;
+}
+.tooltip{
+    position: absolute;
+    top: calc(-100% - 50%);
+    transform: translateX(-50%);
+    background-color: burlywood;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 10px;
+    min-width: 300px;
+}
+
+p{
+    background-color: aqua;
+    height: 40px;
+    width: 80px;
+    color: black;
+    border: 2px solid peru;
+    padding-top: 7px;
+    border-radius: 6px;
+}

@@ -1,0 +1,58 @@
+.steps{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    align-items: center;
+    margin: auto;
+    background-color: chocolate;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+    
+}
+
+.step{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 8px;
+ 
+}
+
+.step.active{
+    background-color: blueviolet;
+    color: wheat;
+}
+
+.step-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 10px;
+}
+
+.step-btn-wrapper button{
+    padding: 12px 20px;
+    border-color: burlywood;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.step-btn-wrapper button:disabled{
+    color: rgba(0, 0, 0, 0.653);
+    opacity: 0.65;
+    cursor: not-allowed;
+}
+
+.step-progress-bar-container h1{
+    text-align: center;
+}
+
